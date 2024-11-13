@@ -5,7 +5,8 @@ namespace Phpforce\SoapClient\Result;
 use Doctrine\Common\Collections\ArrayCollection;
 use Phpforce\SoapClient\Result\DescribeSObjectResult\Field;
 
-class DescribeSObjectResult
+#[\AllowDynamicProperties]
+class DescribeSObjectResult 
 {
     protected $activateable;
     protected $childRelationships;

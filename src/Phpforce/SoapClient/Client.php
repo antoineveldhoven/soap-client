@@ -12,6 +12,7 @@ use Phpforce\SoapClient\Exception;
  *
  * @author David de Boer <david@ddeboer.nl>
  */
+#[\AllowDynamicProperties]
 class Client extends AbstractHasDispatcher implements ClientInterface
 {
     /*
